@@ -55,6 +55,3 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Rename `scp` directory for added security.
 - Configure **file permissions** to restrict access.
 - Regularly update **osTicket and server dependencies**.
-
----
-✅ **Congratulations! Your osTicket System is Now Configured and Ready for Use!**
