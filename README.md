@@ -6,10 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation]
-- https://youtu.be/mbckqBHjLxM?si=yv3RB5N2AQtB8iUI
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -36,20 +32,30 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Update **Company Name, Default Timezone, and System Email**.
 - Set up **Helpdesk Name and Email Preferences**.
 
-### 2️⃣ Enable Email Fetching & SMTP
-- Go to **Emails** → **Email Settings**.
-- Enable **IMAP/POP Fetching**.
-- Configure **SMTP Authentication** for sending emails.
+  <img width="665" alt="Screenshot 2025-03-05 at 11 58 49 AM" src="https://github.com/user-attachments/assets/655d747c-2cd1-4778-9957-c12073dc7d4e" />
 
-### 3️⃣ Set Up User Roles and Permissions
+
+### 2️⃣ Set Up User Roles and Permissions
 - Navigate to **Agents** → **Roles**.
 - Create roles such as **Support Agent, Manager, and Administrator**.
 - Assign **permissions** based on responsibilities.
 
-### 4️⃣ Configure Help Topics and Ticket Filters
+  <img width="668" alt="Screenshot 2025-03-05 at 12 21 30 PM" src="https://github.com/user-attachments/assets/1c884b2c-d267-4801-93d0-90219b957150" />
+
+  <img width="469" alt="Screenshot 2025-03-05 at 12 23 56 PM" src="https://github.com/user-attachments/assets/1b9bad18-2b07-4eeb-8893-c08b51d125cc" />
+
+  <img width="408" alt="Screenshot 2025-03-05 at 12 24 11 PM" src="https://github.com/user-attachments/assets/62e35132-2b0d-44ee-9fe1-06436bfae5c2" />
+  
+
+###  Configure Help Topics and Ticket Filters
 - Go to **Manage** → **Help Topics**.
 - Create categories such as **IT Support, HR Requests, Software Issues**.
 - Set up **Ticket Filters** to route tickets accordingly.
+
+ <img width="683" alt="Screenshot 2025-03-05 at 12 35 28 PM" src="https://github.com/user-attachments/assets/31fd0f4f-23f3-4772-bbfd-300f0e609df9" />
+
+ <img width="689" alt="Screenshot 2025-03-05 at 12 33 23 PM" src="https://github.com/user-attachments/assets/4d17db84-ac1f-46ef-84ab-478afdd31265" />
+
 
 ### 5️⃣ Secure osTicket with Best Practices
 - Rename `scp` directory for added security.
