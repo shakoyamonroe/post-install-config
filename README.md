@@ -56,8 +56,3 @@ This tutorial outlines the post-install configuration of the open-source help de
 
  <img width="689" alt="Screenshot 2025-03-05 at 12 33 23 PM" src="https://github.com/user-attachments/assets/4d17db84-ac1f-46ef-84ab-478afdd31265" />
 
-
-### 5️⃣ Secure osTicket with Best Practices
-- Rename `scp` directory for added security.
-- Configure **file permissions** to restrict access.
-- Regularly update **osTicket and server dependencies**.
